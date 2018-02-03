@@ -2,15 +2,35 @@ html {
   text-align: center;
   font-family: Helvetica;
 }
-.home {
+.home,
+h3.location {
   background-image: url(the-flatiron-building.png);
 }
 h1 {
   font-size: 70px;
-  font-weight: bold;
-  color: white;
 }
 .nav {
   font-size: 18px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 23px;
+}
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+h1,
+h3.location,
+.nav,
+.copyright {
   color: white;
+}
+.copyright {
+  font-size: 11px;
+  background-color: dimgray;
+  text-align: left;
 }
